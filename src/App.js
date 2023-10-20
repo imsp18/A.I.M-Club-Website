@@ -4,6 +4,7 @@ import AboutUs from './components/Aboutus';
 import Vision from './components/Vision';
 import Learn from './components/Learn';
 import './App.css';
+import UpcomingEvents from './components/Upcomingevents';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <AboutUs />
       <Vision />
       <Learn />
+      <UpcomingEvents />
     </div>
   );
 }
