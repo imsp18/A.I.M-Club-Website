@@ -4,7 +4,7 @@ import Button from './Button';
 
 const HeroSection = () => {
     const buttonInfo = [
-        {title: 'Enroll Now', logo: chevronRight}   
+        {title: 'Upcoming Events', logo: chevronRight}   
       ];
     return (
         <div className="flex flex-row mt-20 justify-center items-center">
