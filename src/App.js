@@ -6,6 +6,7 @@ import Learn from './components/Learn';
 import './App.css';
 import UpcomingEvents from './components/Upcomingevents';
 import PreviousEvents from './components/Previousevents';
+import TeamSection from './components/Teamsection';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Learn />
       <UpcomingEvents />
       <PreviousEvents />
+      <TeamSection />
     </div>
   );
 }
