@@ -5,6 +5,7 @@ import Vision from './components/Vision';
 import Learn from './components/Learn';
 import './App.css';
 import UpcomingEvents from './components/Upcomingevents';
+import PreviousEvents from './components/Previousevents';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Vision />
       <Learn />
       <UpcomingEvents />
+      <PreviousEvents />
     </div>
   );
 }
