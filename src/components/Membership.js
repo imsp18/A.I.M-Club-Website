@@ -6,8 +6,8 @@ const MembershipCard = () => {
         { title: 'Start Your Membership', logo: chevronRight }
     ];
     return (
-        <div className="flex flex-col h-[316px] bg-gradient-to-r from-primary to-secondary rounded-3xl justify-center mt-20">
-            <div className="flex flex-col mx-[90px] my">
+        <div className="flex flex-col h-[316px] bg-gradient-to-r from-secondary to-primary rounded-3xl justify-center mt-20">
+            <div className="flex flex-col mx-[90px]">
                 <div className="flex flex-col gap-6 items-center mb-12">
                     {/* Topic */}
                     <div className="font-outfit text-xl uppercase text-background font-semibold">Get Enrolled</div>
