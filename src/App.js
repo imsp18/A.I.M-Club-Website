@@ -7,6 +7,7 @@ import './App.css';
 import UpcomingEvents from './components/Upcomingevents';
 import PreviousEvents from './components/Previousevents';
 import TeamSection from './components/Teamsection';
+import MembershipCard from './components/Membership';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <UpcomingEvents />
       <PreviousEvents />
       <TeamSection />
+      <MembershipCard />
     </div>
   );
 }
