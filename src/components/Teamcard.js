@@ -1,10 +1,11 @@
 import X from "../assests/X-logo.svg";
+import Member1 from "../assests/member-1.png"
 import Linkedin from "../assests/linkedIn-logo.svg";
 
 const TeamCard = () => {
     return (
         <div className="flex flex-col items-center justify-center ">
-            <div className="h-[169px] w-[169px] bg-white absolute z-10 mb-60 border-primaryLight border rounded-full"></div>
+           <img src={Member1} alt="member" className="h-[169px] w-[169px] bg-white absolute z-10 mb-60 border-primaryLight border rounded-full"></img>
             <div className="flex flex-col px-8 justify-center items-center w-[345px] h-[233px] absolute border border-primaryLight bg-white rounded-2xl">
                 {/* Name */}
                 <div className="font-outfit text-lg text-primaryLight font-semibold mt-12 uppercase">name</div>
