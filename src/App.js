@@ -9,6 +9,7 @@ import PreviousEvents from './components/Previousevents';
 import TeamSection from './components/Teamsection';
 import MembershipCard from './components/Membership';
 import Footer from './components/Footer';
+import Contact from './components/Contact';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <PreviousEvents />
         <TeamSection />
         <MembershipCard />
+        <Contact />
       </div>
       <Footer />
     </div>

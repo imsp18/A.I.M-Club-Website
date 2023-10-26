@@ -13,7 +13,7 @@ const Footer = (socials, socialIcon) => {
     return (
         <div className="flex flex-row justify-between items-center px-[90px] bg-secondary h-[90px] mt-20 rounded-t-3xl">
             {/* Copyright */}
-            <div className="text-center font-outfit text-lg text-[#263238]">
+            <div className="text-center font-outfit text-lg font-medium text-[#263238]">
                 <p>A.I.M. Club © {new Date().getFullYear()}</p>
             </div>
             {/* Social Links */}
