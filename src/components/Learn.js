@@ -19,7 +19,7 @@ const Learn = () => {
     return (
         <div className="flex flex-col items-center mt-20">
             <div className="font-outfit text-4xl text-primary font-bold">Learn<span className="text-secondary"> More</span> About</div>
-            <div className="flex flex-row flex-wrap justify-between items-center gap-10 mt-10">
+            <div className="flex flex-row flex-wrap max-sm:flex-wrap justify-between items-center max-sm:gap-2 gap-10 mt-10">
                 {skills.map((skills, index) => (
                     <SkillsButton key={index} title={skills.title} logo={skills.logo} />
                 ))}
