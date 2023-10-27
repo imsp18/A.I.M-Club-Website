@@ -2,13 +2,13 @@ import aboutImage from '../assests/about-image.svg'
 
 const AboutUs = () => {
     return (
-        <div className="flex flex-row mt-20 max-sm:mt-10 justify-center items-center max-sm:flex-col-reverse">
+        <div className="flex flex-row mt-20 max-sm:mt-10 justify-center items-center max-sm:flex-col-reverse  max-sm:gap-10">
             {/* Image Part */}
             <div className="flex flex-col items-center">
                 <img src={aboutImage} alt="about" />
             </div>
             {/* Text Part */}
-            <div className="flex flex-col items-start gap-2 w-[525px] max-sm:w-[310px] max-sm:gap-10" >
+            <div className="flex flex-col items-start gap-2 w-[525px] max-sm:w-[310px]" >
                 <h1 className="font-outfit text-primaryLight text-lg font-bold max-sm:text-sm">ABOUT US</h1>
                 <h2 className="font-outfit text-primary text-4xl font-bold max-sm:text-2xl">Embark on a Journey of Innovation: Unleashing Potential with
                     <span className="text-secondary"> A.I.M. Club</span></h2>
