@@ -23,7 +23,7 @@ const EventCard = ({eventImage, location, time, eventName}) => {
                 {/* Event Title */}
                 <div className="font-outfit items-start text-primary text-lg font-bold mt-2">{eventName}</div>
                 {/* Event Registration */}
-                <div className="flex flex-row justify-center items-center mt-3  max-sm:mt-1 rounded-xl hover:bg-slate-200 p-1 duration-100 ease-out w-36 max-sm:w-32 hover:scale-105 cursor-pointer">
+                <div className="flex flex-row justify-center items-center mt-3  max-sm:mt-1 rounded-xl p-1 duration-100 ease-out w-36 max-sm:w-32 hover:scale-105 cursor-pointer outline outline-1 outline-primary ">
                     <div className="font-outfit text-black text-md font-semibold max-sm:text-sm">Register Now</div>
                     <img src={ArrowRight} alt="arrow" className="h-4 w-4 ml-1" />
                 </div>
