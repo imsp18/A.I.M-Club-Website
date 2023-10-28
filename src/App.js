@@ -14,7 +14,7 @@ import Contact from './components/Contact';
 function App() {
   return (
     <div>
-      <div className=" mx-[188px] max-sm:mx-[25px]">
+      <div className=" mx-[188px] max-sm:mx-[6px]">
         <Navbar />
         <HeroSection />
         <AboutUs />
