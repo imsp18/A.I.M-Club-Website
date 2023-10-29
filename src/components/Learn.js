@@ -14,7 +14,7 @@ const Learn = () => {
         {title: '3D Printing', logo:skill3},
         {title: 'Profile Building', logo:skill4},
         {title: 'Tech Skills', logo:skill5},
-        {title: 'Robotics', logo:skill6},
+        {title: 'Robotics', logo:skill6}
     ];
     return (
         <div className="flex flex-col items-center mt-20 max-sm:mt-10">
